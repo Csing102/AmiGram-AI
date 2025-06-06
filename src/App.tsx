@@ -34,7 +34,7 @@ function App() {
           <ProtectedRoute>
             <Layout>
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/\" element={<Home />} />
                 <Route path="/profile/:username?" element={<Profile />} />
                 <Route path="/messages" element={<Messages />} />
                 <Route path="/messages/:conversationId" element={<Messages />} />
